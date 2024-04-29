@@ -1,0 +1,563 @@
+html{
+    margin: 0px;
+    background-color:hsl(219, 30%, 18%);
+   
+}
+body{
+    margin: 0px;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family: Raleway , sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 2rem
+}
+
+main{
+    font-family: Open Sans , sans-serif ;
+}
+
+ul { 
+    padding: 0px; 
+    list-style: none; 
+    width: 300px;
+    text-align: center;
+    Font-size: 14px;
+    position:absolute;
+    right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li a:hover {
+    color: #ffffff; /* رنگ پر رنگ‌تر هنگام هاور */
+    border-bottom: 2px solid #f9f7f5; /* زیر خط هنگام هاور */
+    font:bolder;
+    
+}
+li{
+    width: 95px;
+    display: table-cell;
+    position: relative;
+    padding: 15px 0px;
+    font:menu;
+    font-size: 14px;
+    
+}
+
+a{
+    color:  rgb(255, 255, 255);
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display :inline-block;
+    padding: 0px;
+    transition: color 0.3s, background-color 0.3s; 
+    
+}
+ a:hover{
+    font:bold;
+  
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+/* ************************page1********************** */
+#im1{
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+
+}
+#txth2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font: bold;
+}
+#txt3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#btn1{
+    color: white;
+    border-radius: 30px;
+    /* background-color: #31bae8; */
+    background-color: hsl(198, 60%, 50%);
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+   /* align-items: center; */
+   cursor: pointer; 
+   padding: 20px 90px;
+   border: none;
+}
+#btn1:hover{
+
+    background-color:hsl(176, 68%, 64%);
+
+}
+#blupic{
+    position:relative;
+    z-index: -1;
+    background-size: cover;
+    width: 100%;
+    /* margin-top: 135px; */
+    margin-top: -255px;
+}
+/* ***************************page 2*********************** */
+#pg2{
+    
+    background-color: hsl(218, 28%, 13%);
+    margin-top: -10px;
+}
+.items{
+    padding: 59px
+}
+
+.txtim{
+    text-align: center;
+    color: white;
+}
+
+.gallery{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-top: 50px;
+}
+
+.image-with-text {
+    display: flex;
+    align-items: center; 
+    margin-left: 115px;
+    margin-top: 78px;
+}
+
+.image-with-text img {
+
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.image-with-text .t{
+    margin-left: 72px;
+    color: white;
+    
+}
+#link2{
+    color: #ffffff;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+
+}
+
+a:hover{
+    border-bottom: 2px solid #f9f7f5;
+    border-color: hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+}
+#favicon{
+    width: 12px;
+    padding: 2px;
+}
+
+/* ****************boxes******************** */
+#boxes{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 95px;
+    padding: 40px;
+    z-index: 2;
+}
+#quot{
+    display: inline;
+    z-index: -1;
+    position: relative;
+    left: 73px;
+    top: -31px;
+}
+.box{
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 7px;
+   
+
+}
+.pro{
+    border-radius: 50%;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    padding: 20px 0px 0px;
+
+}
+.h5tx{
+    padding-left: 20px;
+    white-space: nowrap;
+    margin: 0px;
+    font-size: 12px;
+}
+#prof{
+    border-radius: 50%;
+    width: 30px;
+}
+ 
+/* ******************Email Box******************* */
+#mainb{
+    background-color: hsl(219, 30%, 18%);
+    display: inline-block;
+    /* margin-left: 300px; */
+    padding: 20px 0px 0px;
+    border-radius: 10px;
+    margin: 100px 242px;
+    margin: 168px 327px -54px;;
+ }
+
+#boxtex{
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+#boxe{
+    text-align: center;
+    padding: 20px 0px 0px;
+    border-radius: 50%;
+    margin: 0 auto;
+   
+}
+
+
+ #content{
+    padding: 21px 65px;
+ }
+/* استایل فرم ورودی ایمیل */
+input[type="email"] {
+    width: 60%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.btnemail{
+    display: flex;
+
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+/* استایل دکمه ارسال */
+button {
+
+    background-color: hsl(198, 60%, 50%);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    white-space: nowrap;
+    cursor: pointer;
+    
+}
+button:hover{
+
+     background-color:hsl(176, 68%, 64%);
+}
+
+/* استایل پیام خطا */
+.error-message {
+    color: red;
+    display: none; /* در ابتدا پنهان باشد */
+}
+
+/* *********************Footer******************* */
+footer{
+    background-color: hsl(216, 53%, 9%);
+    font-family: Open Sans , sans-serif ;
+
+}
+.texlocation{
+    color: #fff;
+}
+
+.icon-container {
+    display:inline-flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  .icon-container2{
+    display:inline-flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+  #logo2{
+    width: 110px;
+    margin: 40px 93px;
+  }
+  
+  .icon {
+    font-size: 24px; 
+    margin: 20px;
+  }
+  
+  .texlocation {
+    text-align: left; /* تنظیم متن به سمت راست */
+  }
+  span{
+    color: #fff;
+  }
+  #main-contaier{
+    display: inline-flex;
+    align-items: baseline;
+    margin-bottom: 100px;
+  }
+  .icons2{
+    margin: 20px;
+  }
+  
+
+  /* *****************part2************** */
+  
+  
+  a{
+    padding:  4px 2px 6px 0px;
+  }
+  .tag{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding:3px 54px 0px 100px;
+  }
+  .taga2{
+    padding: -1px 0px 11px 0px;
+  }
+  .logo2{
+    padding-top: 0px;
+  }
+
+  /* /////////////////////////////resposive//////////////////////////////// */
+@media screen and (max-width:1120px){
+    .btnemail{
+        display: inline-block;
+    }
+    input[type="email"] {
+        width: 76%;
+    }
+
+  }
+@media screen and (max-width:1220px){
+    
+    #logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        width: 132px;
+    }
+    ul { 
+        padding: 0px; 
+        list-style: none; 
+        width: 270px;
+        text-align: center;
+        Font-size: 14px;
+        position:absolute;
+        right: -21px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .image-with-text img {
+        max-width: 41%;
+        margin-left: 43px;
+    }
+    .image-with-text {
+        display: flex;
+        align-items: center;
+        margin-top: 78px;
+    }
+    .image-with-text .t {
+        margin-left: 57px;
+        color: white;
+        margin-right: 62px;
+    }
+    #favicon {
+        width: 12px;
+        margin: 0px;
+    }
+    .box {
+        color: #fff;
+        display: inline-block;
+        text-align: left;
+        padding: 30px;
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 7px;
+        margin-right: 30px;
+    }
+
+    #mainb {
+        margin: 100px 242px;
+    }
+    footer {
+        background-color: hsl(216, 53%, 9%);
+        font-family: Open Sans , sans-serif;
+        width: 107%;
+        margin-top: -180px;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+    }
+    .icons2 {
+        margin: 0px;
+        margin-bottom: 16px;
+    }
+    a{
+        white-space:nowrap;
+    }
+    .taga2 {
+        padding: 9px 52px 5px 0px;
+    }
+    .tag{
+        padding: 3px 0px 0px 22px;
+    }
+    .icon-container2{
+        margin: 0px 50px;
+    }
+}
+
+@media screen and (max-width:1247px){
+    .icon-container2 {
+        margin-left: 80px;
+    }
+    
+}
+
+@media screen and (max-width:963px){
+    #txth2{
+        font-size: 32px;
+    }
+    #txth3{
+        font-size: 17px;
+    }
+   
+}
+@media screen and (max-width:885px){
+
+   
+    .items{
+        padding: 59px
+    }
+}
+@media screen and (max-width:820px){
+   
+    .gallery{
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .box{
+        margin-top: 32px;
+    }
+
+    .image-with-text {
+    margin-left: 0px;
+    }
+    #boxes{
+        justify-content: space-evenly;
+        padding: 0px;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    #quot{
+        
+        top: 0px;
+        display: inline-flex;
+    } 
+    #mainb{
+        margin: 143px 193px;
+        padding: 9px;
+    }
+    button{
+        padding: 12px 38px;
+    }
+    .btnemail{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+    }
+    #im1{
+        width: 85%;
+      
+    }
+    input[type="email"] {
+        width: 113%;
+    }
+    
+    .image-with-text {
+        display: flex;
+        align-items: center;
+        margin-top: 78px;
+        flex-direction: column;
+    }
+    .image-with-text img {
+        max-width: 60%;
+    }
+}
+@media screen and (max-width:480px){
+    .image-with-text{
+    display: flex;
+    align-items: center;
+    margin-top: 78px;
+    flex-direction: column;
+}
+}
+@media screen and (max-width:480px){
+   
+    ul{
+        left: 100%;
+    }
+    
+}
+.image1{
+    width: 100%;
+}
